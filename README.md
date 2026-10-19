@@ -130,4 +130,3 @@ pip install --user --break-system-packages -r requirements.txt
 **Terminal-Karte zeigt nichts / "Keine geolokalisierbaren Hops":**
 Alle Hops waren entweder private IPs (z.B. im eigenen Heimnetz) oder haben nicht geantwortet (`* * *`). Das ist normal bei sehr nahen Zielen.
 
-
