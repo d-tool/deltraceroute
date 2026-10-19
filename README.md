@@ -1,6 +1,6 @@
 # deltracemap
 
-Ein Visual-Traceroute-Klon für das Terminal: Hop-Tabelle mit GeoIP-Infos, ASCII-Koordinatenkarte direkt im Terminal (via `plotext`), optional eine interaktive HTML-Karte im Browser (via `folium`).
+Ein Visual-Traceroute-Klon für das Terminal - geschrieben mit Claude: Hop-Tabelle mit GeoIP-Infos, ASCII-Koordinatenkarte direkt im Terminal (via `plotext`), optional eine interaktive HTML-Karte im Browser (via `folium`).
 
 ## Voraussetzungen
 
