@@ -7,7 +7,7 @@ from pathlib import Path
 
 import requests
 
-CACHE_PATH = Path.home() / ".cache" / "deltracemap" / "geoip_cache.json"
+CACHE_PATH = Path.home() / ".cache" / "deltraceroute" / "geoip_cache.json"
 CACHE_MAX_AGE_S = 30 * 24 * 60 * 60  # 30 Tage
 BATCH_URL = "http://ip-api.com/batch"
 
