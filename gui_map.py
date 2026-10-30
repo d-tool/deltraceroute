@@ -14,7 +14,7 @@ from traceroute_core import Hop
 
 # Snap-Browser (z.B. Firefox) blocken versteckte Ordner (".cache" etc.) im Sandbox,
 # daher sichtbaren Ordner wie Downloads verwenden
-OUTPUT_DIR = Path.home() / "Downloads" / "deltracemap"
+OUTPUT_DIR = Path.home() / "Downloads" / "deltraceroute"
 
 # Wie lange der lokale HTTP-Server offen bleibt, damit Seite + Kartenkacheln laden können
 SERVE_DURATION_S = 10
@@ -53,7 +53,7 @@ def render_gui_map(hops: list[Hop], geo_by_ip: dict[str, GeoInfo], target: str) 
 
     folium.PolyLine(locations=[(p[0], p[1]) for p in points], color="red", weight=2).add_to(fmap)
 
-    output_path = OUTPUT_DIR / f"deltracemap_{target.replace('.', '_')}.html"
+    output_path = OUTPUT_DIR / f"deltraceroute_{target.replace('.', '_')}.html"
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     fmap.save(str(output_path))
 
