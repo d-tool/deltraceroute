@@ -1,6 +1,6 @@
 # deltraceroute
 
-A visual traceroute clone for the terminal written from Claude: hop table with GeoIP info, an ASCII coordinate map directly in the terminal (via `plotext`), and optionally an interactive HTML map in the browser (via `folium`).
+A visual traceroute clone for the terminal written by Claude from Anthropic: hop table with GeoIP info, an ASCII coordinate map directly in the terminal (via `plotext`), and optionally an interactive HTML map in the browser (via `folium`).
 
 ## Requirements
 
